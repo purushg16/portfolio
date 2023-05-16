@@ -1,0 +1,23 @@
+
+
+#Contact{
+    margin: 5% auto;
+    padding: 5% 10%;
+}
+
+#Contact input:focus, #Contact textarea:focus{
+    border-color: black;
+}
+
+.send-btn span{
+    background: white;
+    border-radius: 999px;
+    padding: 1px;
+    transform: rotate(0deg);
+    transition: 0.6s all;
+}
+
+
+.send-btn:hover span{
+    padding-left: 2vh;
+}

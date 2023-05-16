@@ -1,0 +1,27 @@
+
+
+
+#about{
+    margin: 5% auto;
+    padding: 5% 10%;
+}
+
+
+#about > div {
+    padding: 5% 0;
+}
+
+
+.nav-btn span{
+    background: white;
+    border-radius: 999px;
+    padding: 1px;
+    transform: rotate(0deg);
+    transition: 0.6s all;
+}
+
+
+.nav-btn:hover span{
+    padding-left: 2vh;
+    transform: rotate(-45deg);
+}

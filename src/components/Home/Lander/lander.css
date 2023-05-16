@@ -1,0 +1,47 @@
+
+#lander{
+    padding: 1% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lander > div {
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+#name{
+    color: #43A8CE !important; 
+}
+
+#image-scroller{
+    opacity: 1;
+    width: 100%;
+    overflow: auto;
+    pointer-events: none !important;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+}
+  
+div {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+#scrolly ul{
+    animation: slide 400s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}

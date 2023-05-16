@@ -7,7 +7,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img{
+  pointer-events: none !important;
 }
+
+html,body{
+  margin: 0px !important;
+  height: 100%;
+}
+
+h2{
+  color: #000;
+  font-size: calc(5vh + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: bold;
+}
+
+h1,h2,h3,h4,h5,h6, input, textarea{
+  font-family: 'Poppins', sans-serif;
+}
+
+h4:hover,h5:hover{
+  color: white;
+}
+
+a{
+  text-decoration: none !important;
+  transition: 0.8s all;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+span{
+  color: #006581 !important;
+}
+
+button{
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  border: none;
+  background: #000000;
+  padding: 2% 7%;
+  margin-right: 2%;
+  color: white;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+::selection{
+  background: #000;
+}
+
