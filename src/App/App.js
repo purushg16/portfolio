@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import Work from '../components/Work/Work';
+import Projects from '../components/Projects/Projects';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Router>
         <Routes>
             <Route exact path="/" element={<Home />}/>
+            <Route exact path="/work" element={<Work />}/>
+            <Route exact path="/projects" element={<Projects />}/>
         </Routes>
       </Router>
       <Footer />

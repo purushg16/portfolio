@@ -1,0 +1,61 @@
+
+
+#projects{
+    margin: 5% auto;
+    padding: 5% 10%;
+}
+
+
+.MuiButtonGroup-root button{
+    background: black;
+    transition: all 0.7s;
+    text-transform: capitalize;
+}
+
+.MuiButtonGroup-root button:hover{
+    background: black !important;
+}
+
+span#spare-icon{
+    visibility: hidden;
+}
+
+span#sel-icon{
+    color: black !important;
+}
+
+#filter-btn{
+    cursor: auto !important;
+    height: max-content;
+    padding: 0.5vh 2vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    border: none;
+    color: white;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+#filter-btn span{
+    margin: auto 7%;
+    padding: 0.2vh 1vh;
+}
+
+#filter-btn:hover span{
+    padding: 0.2vh 1.5vh;
+}
+
+#f-cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#f-cont a{
+    width: max-content;
+    color: black;
+}
+
+#f-cont a:hover{
+    opacity: 0.8;
+}

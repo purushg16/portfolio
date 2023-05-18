@@ -16,6 +16,9 @@ export default function Contact(props){
                            As a frelancer and a full-stack developer,
                            I have sharpened my self with the top tech
                            tools such as React, Node, Next and etc.,
+                           You can contact me at anytime from anywhere 
+                           regarding works! I can make you feel comfort 
+                           and royal with my creativity!
                         </h5>
 
                         <Box sx={{ display:'flex', marginTop:'10%', gap:'10px', justifyContent:{ sx:'center',sm:'center',md:'start',lg:'start' } }}>

@@ -1,0 +1,51 @@
+
+#work{
+    margin: 5% auto;
+    padding: 5% 10%;
+}
+
+.card-img{
+    /* width: 60%; */
+}
+
+.uk-card-default{
+    transition: all 0.9s;
+}
+
+.uk-card-default:hover{
+    cursor: pointer;
+    margin: 1%;
+    box-shadow: 0px 0px 20px 1px #bbdefbd7;
+}
+
+.uk-card-title{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+/* swiper */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

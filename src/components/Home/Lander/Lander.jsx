@@ -7,7 +7,7 @@ export default function Lander(){
         <section id="lander">
             <div>
                 <h2 style={{textAlign:'center', margin:0}}>
-                    Crafting lovable <br />
+                    Crafting lovable
                     user experiance.
                 </h2>
 
@@ -19,7 +19,7 @@ export default function Lander(){
                     based in <span id='ind'>India.</span>
                 </h5>
 
-                <div>
+                <div style={{ pointerEvents:'none' }}>
                     <ImageSwiper />
                 </div>
 
