@@ -16,7 +16,7 @@ export default function Work(props) {
             </div>
 
             <div>
-                <Grid container columnSpacing={5} rowSpacing={5}> 
+                <Grid container columnSpacing={5} rowSpacing={5} data-uk-scrollspy="cls: uk-animation-slide-left-small; target: > div; delay: 500"> 
                     <Grid item lg={6}> <ShowCase title={'Urja-The Dying Studio'} images={Uimages}  /> </Grid> 
                     <Grid item lg={6}> <ShowCase title={'BudgetFare'} images={BFimages} /> </Grid> 
                 </Grid>

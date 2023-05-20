@@ -28,13 +28,16 @@ export default function ElevateAppBar(props) {
 
   function scroll(props){
     const element = document.getElementById(props);
-    element.scrollIntoView();
+    if(element) element.scrollIntoView();
+    else href(props);
   }
 
   function href(props) {
     window.location.hash = '';
     window.location.pathname = props;
   }
+
+  function goHome(){ window.location.href = window.location.origin; }
 
   return (
     <section id='nav'>
@@ -52,12 +55,12 @@ export default function ElevateAppBar(props) {
                   </div>
                 </Box>
                 
-                <img width="48" height="48" src="https://img.icons8.com/color/48/000000/ghost--v1.png" alt="ghost--v1"/>
+               <img id='logo' onClick={goHome} style={{cursor:'pointer'}} src="https://img.icons8.com/color/50/000000/ghost--v1.png" alt="ghost--v1"/>
                 
                 <Box sx={{ display: { xs:'none', sm:'none', md:'block', lg:'block' } }}>
                   <div className='left'>
                       <a className='nav-link' onClick={()=>{ scroll('Contact') }}> Contact </a>
-                      <a className='nav-link' onClick={()=>{ scroll('about') }}> blog </a>
+                      <a className='nav-link' onClick={()=>{ href('projects') }}> projects </a>
                   </div>
                 </Box>
                 
@@ -73,7 +76,7 @@ export default function ElevateAppBar(props) {
       </HideOnScroll>
       <Toolbar />
       <Container style={{ marginLeft:0, marginRight:0, padding:0, width:'100%', maxWidth:'none'}}>
-        <Box sx={{ my: 10, width:'100%', maxWidth:'none'}}>
+        <Box sx={{ my: { xs:5, sm:7, md:10, lg:10 } , width:'100%', maxWidth:'none'}}>
         </Box>
       </Container>
       

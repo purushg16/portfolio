@@ -8,7 +8,7 @@ export default function Contact(props){
         <section id='Contact'>
             <div>
                 <Grid container  columnSpacing={7} rowSpacing={7}>
-                    <Grid item xs={12} sm={12} md={6} lg={5}>
+                    <Grid item xs={12} sm={12} md={6} lg={5} data-uk-scrollspy="cls: uk-animation-slide-left;">
                         <h2 id='contact-h' style={{margin:0}}> Contact Me </h2>
                         <p style={{margin:0}}> at anytime! </p>
 
@@ -26,7 +26,7 @@ export default function Contact(props){
                         </Box>
                     </Grid>
 
-                    <Grid item xs={12} sm={12} md={6} lg={7}>
+                    <Grid item xs={12} sm={12} md={6} lg={7} data-uk-scrollspy="cls: uk-animation-slide-right;">
                         <CForm />
                     </Grid>
                 </Grid>

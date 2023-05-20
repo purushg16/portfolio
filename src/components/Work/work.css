@@ -12,13 +12,13 @@
     transition: all 0.9s;
 }
 
-.uk-card-default:hover{
+#work .uk-card-default:hover{
     cursor: pointer;
     margin: 1%;
     box-shadow: 0px 0px 20px 1px #bbdefbd7;
 }
 
-.uk-card-title{
+#work .uk-card-title{
     display: flex;
     align-items: baseline;
     justify-content: space-between;

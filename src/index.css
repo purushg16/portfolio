@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-img{
+img:not(#logo){
   pointer-events: none !important;
 }
 
@@ -16,6 +16,10 @@ html,body{
   height: 100%;
   scroll-behavior: smooth !important;
 }
+
+/* section {
+  position: relative;
+} */
 
 h2{
   color: #000;

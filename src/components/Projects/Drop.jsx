@@ -59,7 +59,7 @@ export default function DropButton(props) {
 
       <Popper
         sx={{
-          zIndex: 1,
+          zIndex: 9999,
         }}
         open={open}
         anchorEl={anchorRef.current}

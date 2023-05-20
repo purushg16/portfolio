@@ -59,3 +59,20 @@ span#sel-icon{
 #f-cont a:hover{
     opacity: 0.8;
 }
+
+.loader{
+    width:  0.5vh;
+    height: 0.7vh;
+    background: black;
+    border-radius: 999px;
+}
+
+.anime{
+    transition: all 0.7s;
+    padding-right: 5%;
+}
+
+.noanime{
+    transition: all 0.7s;
+    padding-right: 0%;
+}

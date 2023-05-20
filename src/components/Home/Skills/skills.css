@@ -20,8 +20,15 @@
 }
 
 .skill-divs{
+
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: end;
+
+    padding: 7% 10%;
     text-align: center;
-    border-radius: 999px;
+    border-radius: 9px;
     color: black;
     font-weight: bold;
 }
