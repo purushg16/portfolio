@@ -10,7 +10,7 @@ export default function About(props){
 
             <div>
                 <Grid container  columnSpacing={7} rowSpacing={7}>
-                    <Grid item xs={12} sm={12} md={6} lg={6} data-uk-scrollspy="cls: uk-animation-slide-left;">
+                    <Grid item xs={12} sm={12} md={6} lg={6} data-uk-scrollspy="cls: uk-animation-slide-left-small;">
                         <h2 id='about-h' style={{margin:0}}> About </h2>
                         <p style={{margin:0}}>myself...</p>
 
@@ -28,7 +28,7 @@ export default function About(props){
                         </Box>
                     </Grid>
 
-                    <Grid item xs={12} sm={12} md={6} lg={6} data-uk-scrollspy="cls: uk-animation-slide-right;">
+                    <Grid item xs={12} sm={12} md={6} lg={6} data-uk-scrollspy="cls: uk-animation-slide-right-small;">
                         <div id='image-scroller'>
                             <ImageLi />
                         </div>

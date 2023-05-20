@@ -9,7 +9,7 @@ export default function Lander(){
 
                 <h2 style={{textAlign:'center', margin:0}} >
                     Crafting lovable
-                    user experiance.
+                    user experience.
                 </h2>
 
                 <p style={{margin:0, padding:0, textAlign:'center'}} id='name'> Purushothaman G </p>

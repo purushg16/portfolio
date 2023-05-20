@@ -12,7 +12,7 @@ export default function Skills(props){
 
              <div>
                 <Grid container  columnSpacing={7} rowSpacing={7}>
-                    <Grid item xs={12} sm={12} md={6} lg={5} data-uk-scrollspy="cls: uk-animation-slide-left;">
+                    <Grid item xs={12} sm={12} md={6} lg={5} data-uk-scrollspy="cls: uk-animation-slide-left-small;">
                         <h2 id='skill-h' style={{margin:0}}> Skills </h2>
                         <p style={{margin:0}}> I Possess.. </p>
 
