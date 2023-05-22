@@ -15,6 +15,7 @@
 }
 
 #menu-cont{
+    background: black !important;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -82,9 +83,9 @@ a.nav-link:hover{
     padding: 1% 4.5vh;
 }
 
-.css-m9glnp-MuiPaper-root-MuiDialog-paper {
+/* .css-m9glnp-MuiPaper-root-MuiDialog-paper {
     background: black !important;
-}
+} */
 
 @media (max-width:899px) {
     #nav-container{
