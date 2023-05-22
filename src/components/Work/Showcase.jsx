@@ -24,7 +24,8 @@ export default function ShowCase(props) {
                     {props.title}
                     <button className="send-btn">View <span uk-icon='icon:arrow-right'></span> </button>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <p>{props.desc}</p>
+                {props.title==='BudgetFare' && <p style={{color:'black'}}> Note: This site is currently under review and upgrading. Some features won't be available.</p>}
             </div>
         </div>
    )

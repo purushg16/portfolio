@@ -4,18 +4,26 @@
     padding: 5% 10%;
 }
 
-.card-img{
-    /* width: 60%; */
+.uk-card-media-top{
+    transition: all 0.7s;
 }
 
 .uk-card-default{
     transition: all 0.9s;
 }
 
+#work .uk-card-default{
+    height: 100%;
+}   
+
 #work .uk-card-default:hover{
     cursor: pointer;
-    margin: 1%;
-    box-shadow: 0px 0px 20px 1px #bbdefbd7;
+}
+
+#work .uk-card-default:hover .uk-card-media-top{
+    cursor: pointer;
+    transform: scale3d(1.03, 1.03, 1);
+    box-shadow: 0px 0px 20px 1px #bbdefb86;
 }
 
 #work .uk-card-title{
