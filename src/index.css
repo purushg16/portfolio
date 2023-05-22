@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-img:not(#logo){
+img:not(#logo, #logo-menu){
   pointer-events: none !important;
 }
 

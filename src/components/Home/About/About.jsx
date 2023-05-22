@@ -5,6 +5,11 @@ import ImageLi from './ImageList';
 
 export default function About(props){
 
+    function href(props) {
+        window.location.hash = '';
+        window.location.pathname = props;
+    }
+
     return (
         <section id='about'>
 
@@ -23,8 +28,8 @@ export default function About(props){
                         </h5>
 
                         <Box sx={{ display:'flex', marginTop:'10%', gap:'10px', justifyContent:{ sx:'center',sm:'center',md:'start',lg:'start' } }}>
-                            <button className='nav-btn'> Projects <span data-uk-icon="icon: arrow-right"></span> </button>
-                            <button className='nav-btn'> Contact  <span data-uk-icon="icon: arrow-right"></span> </button>
+                            <button className='nav-btn' onClick={()=>{href('projects')}} > Projects <span data-uk-icon="icon: arrow-right"></span> </button>
+                            <button className='nav-btn' onClick={()=>{href('contact')}} > Contact  <span data-uk-icon="icon: arrow-right"></span> </button>
                         </Box>
                     </Grid>
 

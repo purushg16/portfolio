@@ -9,6 +9,17 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 export default function Menu(props) {
   const [open, setOpen] = React.useState(false);
 
+  function href(props) {
+    setOpen(false);
+    window.location.hash = '';
+    window.location.pathname = props;
+  }
+
+  function goHome(){  
+    setOpen(false);
+    window.location.href = window.location.origin; 
+  }
+
   const handleClickOpen = () => {
     setOpen(true);
   };
@@ -35,10 +46,11 @@ export default function Menu(props) {
             </button>
 
             <div id='menu-link-cont'>
-                <a className='nav-link' href='.'> About </a>
-                <a className='nav-link' href='.'> Work </a>
-                <a className='nav-link' href='.'> Contact </a>
-                <a className='nav-link' href='.'> Blog </a>
+                <img id='logo-menu' onClick={goHome} style={{cursor:'pointer'}} src="https://img.icons8.com/color/50/000000/ghost--v1.png" alt="ghost--v1"/>            
+                <a className='nav-link' onClick={()=>{ href('about') }}>    About   <span className='nav-span' uk-icon="icon:arrow-up"></span>  </a>
+                <a className='nav-link' onClick={()=>{ href('work') }}>     Work    <span className='nav-span' uk-icon="icon:arrow-up"></span> </a>
+                <a className='nav-link' onClick={()=>{ href('Contact') }}>  Contact <span className='nav-span' uk-icon="icon:arrow-up"></span></a>
+                <a className='nav-link' onClick={()=>{ href('projects') }}> Blog    <span className='nav-span' uk-icon="icon:arrow-up"></span></a>
             </div>
 
         </div>

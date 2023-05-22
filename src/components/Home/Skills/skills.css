@@ -7,6 +7,18 @@
     color: white;
 }
 
+.skill-icons{
+    width: 20%;
+}
+
+.skill-name{
+    font-size: 2vh;
+}
+
+.percent{
+    font-size: large;
+}
+
 #skill-h{
     color: white;
 }

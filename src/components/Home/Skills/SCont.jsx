@@ -21,17 +21,17 @@ const skills = {
 export default function SCont(props){
 
     return(
-        <Grid container spacing={5} data-uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500">
+        <Grid container columnSpacing={2} rowSpacing={3} data-uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500">
 
             {Object.keys(skills).map(i =>{
                 return(
-                    <Grid item xs={6}  sm={6} md={4} lg={4}>
+                    <Grid item xs={6} sm={4} md={4} lg={4}>
                         <div className="uk-card uk-card-default uk-card-body skill-divs react">
 
-                        <img src={skills[i][1]} alt="react" style={{width:'40px', height:'40px'}}/> 
+                        <img src={skills[i][1]} alt="react" className="skill-icons"/> 
                         <div style={{textAlign:'right'}}>
-                            <h4 id='percent' style={{margin:0,color:'darkcyan',fontWeight:'bold'}}> {skills[i][0]}% </h4>
-                            <h2 className="uk-card-title" style={{color:'black',margin:0,marginTop:'10%',padding:0}}>
+                            <h4 className='percent' style={{margin:0,color:'darkcyan',fontWeight:'bold'}}> {skills[i][0]}% </h4>
+                            <h2 className="uk-card-title skill-name" style={{color:'black',margin:0,marginTop:'10%',padding:0}}>
                                 {i}
                             </h2> 
                         </div>
