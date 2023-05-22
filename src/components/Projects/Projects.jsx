@@ -102,7 +102,7 @@ export default function Projects(props) {
                                 {data[key].map((d,i)=>{
                                 return (
                                         <Grid item lg={4}> 
-                                            <ProCards title={d.title} tag={d.tag} desc={d.desc} url={d.url} img={d.img_url} type={ d.type && d.type } /> 
+                                            <ProCards title={d.title} tag={d.tag} desc={d.desc}  url={d.url ? d.url :( d.CSurl ? d.CSurl : d.google_colab )} img={d.img_url} type={ d.type && d.type } /> 
                                         </Grid>
                                 )})}
                                 </Grid>

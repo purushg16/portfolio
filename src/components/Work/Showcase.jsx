@@ -12,7 +12,7 @@ export default function ShowCase(props) {
                     {Object.keys(images).map(i =>{
                         return (
                             <Grid item xs={6}>
-                                <img className="card-img" src={images[i]} alt="" />
+                                <img className="card-img" src={images[i]} alt="" loading='lazy' />
                             </Grid>
                         )
                     })}
