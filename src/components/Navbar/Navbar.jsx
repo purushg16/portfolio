@@ -8,6 +8,7 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Slide from '@mui/material/Slide';
 import Menu from './Menu';
+import icon1 from './icons8-ghost-50.png';
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -55,7 +56,7 @@ export default function ElevateAppBar(props) {
                   </div>
                 </Box>
                 
-               <img id='logo' onClick={goHome} style={{cursor:'pointer'}} src="https://img.icons8.com/carbon-copy/50/ghost.png" alt="ghost--v1"/>
+               <img id='logo' onClick={goHome} style={{cursor:'pointer'}} src={icon1} alt="ghost--v1"/>
                 
                 <Box sx={{ display: { xs:'none', sm:'none', md:'block', lg:'block' } }}>
                   <div className='left'>
