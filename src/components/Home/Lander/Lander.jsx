@@ -5,7 +5,7 @@ export default function Lander(){
 
     return(
         <section id="lander">
-            <div data-uk-scrollspy="cls: uk-animation-slide-bottom; target: h2,p,h5,div; delay: 500">
+            <div data-uk-scrollspy="cls: uk-animation-slide-bottom-small; target: h2,p,h5,div; delay: 300">
 
                 <h2 style={{textAlign:'center', margin:0}} >
                     Crafting lovable
