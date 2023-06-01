@@ -57,7 +57,7 @@ export default function ElevateAppBar(props) {
                 
                 <Box sx={{ display: { xs:'none', sm:'none', md:'block', lg:'block' } }}>
                   <div className='left'>
-                      <a className='nav-link' onClick={()=>{ scroll('skills') }}> Skills </a>
+                      <a className='nav-link' onClick={()=>{ href('sites') }}> Sites </a>
                       <a className='nav-link' onClick={()=>{ href('projects') }}> projects </a>
                   </div>
                 </Box>

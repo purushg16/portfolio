@@ -1,0 +1,45 @@
+
+#home{
+    height: 100%;
+}
+
+.logo{
+    font-size: 2em;
+    text-align: center;
+    color: #98D8AA;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+
+#welcome{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+    transition: all 0.7s;
+    background: #FF6D60;
+}
+
+.up-ed{
+    transition: all 0.7s;
+    height: 30vh !important;
+}
+
+#head-cont th{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+#table-body{
+    height: 500px !important;
+    overflow: scroll;
+}
+
+#body-cont th{
+    text-align: center;
+
+}
