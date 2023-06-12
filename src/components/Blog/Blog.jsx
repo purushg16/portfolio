@@ -14,7 +14,7 @@ export default function Blog(props) {
                 <p style={{margin:0}}> i've written </p> 
             </div>
 
-            <div class="uk-child-width-1-3@m" data-uk-grid>
+            <div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-child-width-1-3@l" data-uk-grid>
 
                 <div>
                     <div class="uk-card uk-card-default" style={{ maxWidth: 'fit-content', height:'100%' }}>
@@ -35,7 +35,7 @@ export default function Blog(props) {
                                 Lot more <br />
                                 is on the way!
                             </h1>
-                            <p className='article' style={{textTransform:'lowercase'}}>~purush</p>
+                            <a href='/'> <p className='article' style={{textTransform:'lowercase',cursor:'pointer'}}>~purush</p> </a> 
                     </div>
                 </div>
             
