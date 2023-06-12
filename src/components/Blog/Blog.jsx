@@ -17,7 +17,7 @@ export default function Blog(props) {
             <div class="uk-child-width-1-3@m" data-uk-grid>
 
                 <div>
-                    <div class="uk-card uk-card-default" style={{ maxWidth: 'fit-content' }}>
+                    <div class="uk-card uk-card-default" style={{ maxWidth: 'fit-content', height:'100%' }}>
                         <div class="uk-card-media-top">
                             <img style={{width:'100%'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqLo5GA0G1ac0_BHDwZG3Rc15jQSDRGxxZgQ&usqp=CAU" alt=''/>
                         </div>
@@ -25,6 +25,17 @@ export default function Blog(props) {
                             <h3 class="uk-card-title blog-title" onClick={()=>{href('blog/flexbox')}}> How did I understood the CSS-Flex concepts all by myself? </h3>
                             <p className='article'>Article</p>
                         </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body" style={{ background:'#e3e7fd', maxHeight:'100%', height:'100%', maxWidth:'340px'}}>
+                            <h1 class="blog-title" style={{fontSize:'3.2em', marginBottom:0,  color:'black', fontWeight:'600'}}> 
+                                Stay Tuned! <br />
+                                Lot more <br />
+                                is on the way!
+                            </h1>
+                            <p className='article' style={{textTransform:'lowercase'}}>~purush</p>
                     </div>
                 </div>
             
