@@ -6,3 +6,35 @@
     margin: 5% auto;
     padding: 5% 10%;
 }
+
+.blog-title{
+    transition: all 0.5s;
+}
+
+
+#BContent{
+    padding: 3% 8% 5%;
+}
+
+.blog-title:hover{
+    cursor: pointer;
+    color: #7b86c6;
+}
+
+.blog-a{
+    color: #7b86c6;
+}
+
+p.article{
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 0;
+    text-align: end;
+    text-decoration: underline;
+    color: #7b86c6;
+    cursor: default;
+}
+
+#author{
+    color: #7b86c6;
+}

@@ -30,8 +30,8 @@ export default function SCont(props){
 
                         <img src={skills[i][1]} alt="react" className="skill-icons"/> 
                         <div style={{textAlign:'right'}}>
-                            <h4 className='percent' style={{margin:0,color:'darkcyan',fontWeight:'bold'}}> {skills[i][0]}% </h4>
-                            <h2 className="uk-card-title skill-name" style={{color:'black',margin:0,marginTop:'10%',padding:0}}>
+                            <h4 className='percent' style={{margin:0,fontWeight:'bold'}}> {skills[i][0]}% </h4>
+                            <h2 className="skill-name" style={{margin:0,marginTop:'10%',padding:0}}>
                                 {i}
                             </h2> 
                         </div>

@@ -14,6 +14,7 @@ import Contact from '../components/Home/Contact/Contact';
 import Blog from '../components/Blog/Blog';
 import ChemEm from '../sites/chemem/ChemEm';
 import Sites from '../sites/Sites';
+import BContent from '../components/Blog/BContent';
 
 function App() {
   return (
@@ -26,7 +27,12 @@ function App() {
             <Route exact path="projects" element={<Projects />}/>
             <Route exact path="about" element={<About />}/>
             <Route exact path="contact" element={<Contact />}/>
-            <Route exact path="blog" element={<Blog />}/>
+
+            <Route path="blog">
+              <Route index element={<Blog />} />
+              <Route path="flexbox" element={<BContent />} />
+            </Route>   
+
             <Route path="sites">
               <Route index element={<Sites />} />
               <Route path="chemem" element={<ChemEm />} />

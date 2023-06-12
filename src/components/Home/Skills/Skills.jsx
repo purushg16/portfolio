@@ -29,7 +29,7 @@ export default function Skills(props){
 
                         <Box sx={{ display:'flex', marginTop:'10%', gap:'10px', justifyContent:{ sx:'center',sm:'center',md:'start',lg:'start' } }}>
                             <button className='nav-btn' onClick={()=>{href('work')}} > Works <span data-uk-icon="icon: arrow-right"></span> </button>
-                            <button className='nav-btn' onClick={()=>{href('contact')}}> Contact  <span data-uk-icon="icon: arrow-right"></span> </button>
+                            <button className='nav-btn' onClick={()=>{href('blog')}}> Blog  <span data-uk-icon="icon: arrow-right"></span> </button>
                         </Box>
                     </Grid>
 

@@ -17,6 +17,7 @@
 
 .percent{
     font-size: large;
+    color: darkcyan;
 }
 
 #skill-h{
@@ -38,11 +39,17 @@
     justify-content: space-between;
     align-items: end;
 
+    cursor: pointer;
     padding: 7% 10%;
     text-align: center;
     border-radius: 9px;
-    color: black;
     font-weight: bold;
+    transition: all 0.3s;
+}
+
+.skill-divs h2{
+    color: grey;
+    transition: all 0.6s;
 }
 
 #skills button{
@@ -53,4 +60,12 @@
 #skills button span{
     color: aqua !important;
     background: black;
+}
+
+.skill-divs:hover{
+    background: rgb(193, 193, 193);
+}
+
+.skill-divs:hover h2{
+    color: black;
 }
